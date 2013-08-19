@@ -1,0 +1,13 @@
+Loading required package: methods
+Loading required package: bitops
+Loading required package: zoo
+
+Attaching package: 'zoo'
+
+The following object(s) are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Loading required package: DBI
+Error in which(sites[, "category"] == "Application") : 
+  subscript out of bounds

@@ -1,0 +1,44 @@
+\documentclass[oneside]{article}
+
+\usepackage[margin=2cm,nohead]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{verbatim}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  pdfauthor={http://tvrporftolio.scroggles.com}
+  }
+
+\graphicspath{{./graphs/}}
+
+\title{FaceBook Industry Benchmark}
+\author{\url{http://tvrportfolio.scroggles.com}}
+\date{\today}
+\raggedbottom
+\setcounter{tocdepth}{1}
+
+\begin{document}
+
+\maketitle
+
+This report has been compiled for Sendster for the purpose of providing an industry benchmark and a reltive comparison with Stonegate Pubs.
+
+\tableofcontents
+
+<% library(sqldf); load(".RData") %>
+
+\section{All in Group}
+<%= printAnalysis(infoData, infoPostData, infoPostDataMod) 
+%>
+
+
+\pagebreak
+
+\section{StoneGate}
+
+\section{StoneGate by Segment}
+
+\end{document}

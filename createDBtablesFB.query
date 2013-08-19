@@ -1,0 +1,5 @@
+#create database
+
+CREATE DATABASE  `sendster_data` ;
+
+

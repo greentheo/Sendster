@@ -1,0 +1,81 @@
+\documentclass[oneside]{article}
+
+\usepackage[margin=2cm,nohead]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{verbatim}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  pdfauthor={http://tvrporftolio.scroggles.com}
+  }
+
+\graphicspath{{./graphs/}}
+
+\title{FaceBook Industry Benchmark}
+\author{\url{http://tvrportfolio.scroggles.com}}
+\date{\today}
+\raggedbottom
+\setcounter{tocdepth}{1}
+
+\begin{document}
+
+\maketitle
+
+This report has been compiled for Sendster for the purpose of providing an industry benchmark and a reltive comparison with Stonegate Pubs.
+
+\tableofcontents
+
+
+
+\section{All in Group}
+Sample Size of  550  pages and  7792 posts 
+Pages **** 
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max.      NA's 
+0.000e+00 7.700e+01 2.680e+02 6.085e+12 1.574e+03 3.027e+14 1.100e+01 
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max.      NA's 
+0.000e+00 1.000e+00 1.100e+01 6.085e+12 4.600e+01 3.027e+14 1.100e+01 
+Posts **** 
+7792  posts representing  469  pages 
+       link       offer       photo      status         swf       video 
+0.084958932 0.001283368 0.222920945 0.672356263 0.002695072 0.015785421 
+posting frequency   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1.00    9.00   19.00   16.61   23.00   48.00 
+LM numposts vs. likes an comments
+Call:
+lm(formula = "likes~as.numeric(x)+0", data = as.data.frame(aggpostinfo))
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-28.526 -11.078  -4.724   2.560 162.198 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+as.numeric(x)   1.1810     0.0599   19.72   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 23.85 on 468 degrees of freedom
+Multiple R-squared: 0.4538,	Adjusted R-squared: 0.4526 
+F-statistic: 388.8 on 1 and 468 DF,  p-value: < 2.2e-16 
+
+
+Call:
+lm(formula = "comments~as.numeric(x)+0", data = as.data.frame(aggpostinfo))
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-22.754  -6.059  -3.007   0.578 244.149 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+as.numeric(x)  0.47404    0.04006   11.83   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 15.95 on 468 degrees of freedom
+Multiple R-squared: 0.2303,	Adjusted R-squared: 0.2287 
+F-statistic:   140 on 1 and 468 DF,  p-value: < 2.2e-16 
+

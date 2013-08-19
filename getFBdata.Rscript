@@ -1,0 +1,4 @@
+#! /usr/bin/Rscript
+
+
+source('/home/theovanrooy/repo2/getFBdata.r')

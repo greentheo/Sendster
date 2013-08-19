@@ -1,0 +1,339 @@
+Loading required package: methods
+Loading required package: bitops
+Loading required package: zoo
+
+Attaching package: 'zoo'
+
+The following object(s) are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+refreshing accesstoken 
+* About to connect() to accounts.google.com port 443
+*   Trying 74.125.132.84... * connected
+* Connected to accounts.google.com (74.125.132.84) port 443
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using RC4-SHA
+* Server certificate:
+* 	 subject: /C=US/ST=California/L=Mountain View/O=Google Inc/CN=accounts.google.com
+* 	 start date: 2013-07-31 11:40:36 GMT
+* 	 expire date: 2013-10-31 23:59:59 GMT
+* 	 subjectAltName: accounts.google.com matched
+* 	 issuer: /C=US/O=Google Inc/CN=Google Internet Authority
+* SSL certificate verify ok.
+> POST /o/oauth2/token HTTP/1.1
+Host: accounts.google.com
+Accept: */*
+Content-Length: 222
+Content-Type: application/x-www-form-urlencoded
+
+refresh_token=1%2F4vaWCr%2Dtrl9Cjx4M3CwDTjtlfR7YietyvktWQb8cNZo&client_id=390328638386%2Dc163hiuv5pvuha1mfrritqrofj9p1d3g%2Eapps%2Egoogleusercontent%2Ecom&client_secret=NbkQpdvlzQWz%5FKh3Xc7FxcZF&grant_type=refresh%5Ftoken< HTTP/1.1 200 OK
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: Fri, 01 Jan 1990 00:00:00 GMT
+< Date: Sun, 18 Aug 2013 23:58:42 GMT
+< Content-Type: application/json
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-XSS-Protection: 1; mode=block
+< Server: GSE
+< Transfer-Encoding: chunked
+* Connection #0 to host accounts.google.com left intact
+pulling profile data 
+[1] "UA-9681407-1" "UA-9681407-2" "UA-9681407-3"
+* Closing connection #0
+ [1] "UA-19055702-2"  "UA-19055702-3"  "UA-19055702-4"  "UA-19055702-5" 
+ [5] "UA-19055702-6"  "UA-19055702-7"  "UA-19055702-8"  "UA-19055702-9" 
+ [9] "UA-19055702-10" "UA-19055702-11" "UA-19055702-12" "UA-19055702-13"
+[13] "UA-19055702-14" "UA-19055702-15" "UA-19055702-16" "UA-19055702-17"
+[17] "UA-19055702-18" "UA-19055702-19" "UA-19055702-20" "UA-19055702-21"
+[21] "UA-19055702-22" "UA-19055702-23" "UA-19055702-24" "UA-19055702-25"
+[25] "UA-19055702-26" "UA-19055702-27" "UA-19055702-29" "UA-19055702-30"
+[29] "UA-19055702-31" "UA-19055702-32" "UA-19055702-33" "UA-19055702-34"
+[33] "UA-19055702-35" "UA-19055702-36" "UA-19055702-37" "UA-19055702-38"
+[37] "UA-19055702-39" "UA-19055702-40" "UA-19055702-41" "UA-19055702-42"
+[41] "UA-19055702-43" "UA-19055702-44" "UA-19055702-45" "UA-19055702-46"
+[45] "UA-19055702-47" "UA-19055702-48" "UA-19055702-49" "UA-19055702-50"
+ [1] "UA-24213615-1"  "UA-24213615-2"  "UA-24213615-3"  "UA-24213615-4" 
+ [5] "UA-24213615-5"  "UA-24213615-6"  "UA-24213615-7"  "UA-24213615-8" 
+ [9] "UA-24213615-9"  "UA-24213615-10" "UA-24213615-11" "UA-24213615-12"
+getting report for: www.sendster.co.uk   juliadatagot  0  of raw data Error in switch(colType[ii], INTEGER = as.numeric(basedata[, ii]), STRING = as.character(basedata[,  : 
+  EXPR must be a length 1 vector
+www.localmarketer.co.uk   juliadatagot  1  of raw data www.olivebranchhorsham.co.uk/   juliadatagot  0  of raw data Error : subscript out of bounds
+www.olivebranchhorsham.co.uk   juliadatagot  0  of raw data Error : subscript out of bounds
+monmouthash.co.uk   juliadatagot  2  of raw data oldinnwidecombeinthemoor.co.uk   juliadatagot  2  of raw data osborneviewhillhead.co.uk/   juliadatagot  2  of raw data wheatsheaflowerwoodford.co.uk   juliadatagot  2  of raw data halfmoonshaftsbury.co.uk   juliadatagot  2  of raw data newqueenavon.co.uk/   juliadatagot  2  of raw data housemartinnewmilton.co.uk   juliadatagot  2  of raw data theworldsendtaunton.co.uk   juliadatagot  2  of raw data theangellongham.co.uk   juliadatagot  2  of raw data thebarnowl.co.uk   juliadatagot  2  of raw data worldsendpatching.co.uk   juliadatagot  2  of raw data thegrasshopperparkstone.co.uk   juliadatagot  2  of raw data thehangletonmanor.co.uk   juliadatagot  2  of raw data sevenstarsstroud.co.uk   juliadatagot  3  of raw data blackswanpeasepottage.co.uk   juliadatagot  3  of raw data thegoffsmanor.co.uk   juliadatagot  2  of raw data wightmouse.co.uk   juliadatagot  2  of raw data yachtsmanhamworthy.co.uk   juliadatagot  2  of raw data thehornbrook.co.uk   juliadatagot  3  of raw data stpetersfinger.co.uk   juliadatagot  4  of raw data worldsendalmer.co.uk   juliadatagot  2  of raw data thehalfwayinnwareham.co.uk.   juliadatagot  2  of raw data smugglersinnosmingtonmills.co.uk   juliadatagot  4  of raw data theoldgranarywareham.co.uk   juliadatagot  2  of raw data shipwool.co.uk   juliadatagot  1  of raw data empressofblandings.co.uk   juliadatagot  2  of raw data jekyllhydeturgisgreen.co.uk   juliadatagot  3  of raw data jollysailoroldbursledon.co.uk   juliadatagot  3  of raw data portsmoutharmshatchwarren.co.uk   juliadatagot  2  of raw data talismanparkgate.co.uk   juliadatagot  2  of raw data wellingtonstratfieldturgis.co.uk   juliadatagot  3  of raw data dehavillandarms.co.uk   juliadatagot  2  of raw data blackhorsehookwood.co.uk   juliadatagot  2  of raw data peacockfarm.co.uk   juliadatagot  2  of raw data anchorpyrford.co.uk   juliadatagot  3  of raw data swannewbury.co.uk   juliadatagot  2  of raw data moatwrotham.co.uk   juliadatagot  3  of raw data theblackrabbitarundel.co.uk   juliadatagot  2  of raw data gardenersarmsardingly.co.uk   juliadatagot  2  of raw data shipweymouth.co.uk   juliadatagot  2  of raw data lighterinn.co.uk   juliadatagot  2  of raw data queenscollegearms.co.uk   juliadatagot  2  of raw data theeelpie.co.uk   juliadatagot  2  of raw data lockstockbarrelocksheath.co.uk   juliadatagot  0  of raw data Error : subscript out of bounds
+oldnickholborn.co.uk   juliadatagot  3  of raw data therisingsunwimborne.co.uk   juliadatagot  2  of raw data shastonarms.co.uk   juliadatagot  2  of raw data shipandshovell.co.uk   juliadatagot  2  of raw data ststephenstavern.co.uk   juliadatagot  4  of raw data hall-woodhousebath.co.uk   juliadatagot  3  of raw data lulworth-coveinn.co.uk   juliadatagot  4  of raw data http://beachhousemilfordonsea.co.uk   juliadatagot  5  of raw data getting report for: www.sendster.co.uk   visitsdatagot  31  of raw data www.localmarketer.co.uk   visitsdatagot  31  of raw data www.olivebranchhorsham.co.uk/   visitsdatagot  31  of raw data www.olivebranchhorsham.co.uk   visitsdatagot  31  of raw data monmouthash.co.uk   visitsdatagot  31  of raw data oldinnwidecombeinthemoor.co.uk   visitsdatagot  31  of raw data osborneviewhillhead.co.uk/   visitsdatagot  31  of raw data wheatsheaflowerwoodford.co.uk   visitsdatagot  31  of raw data halfmoonshaftsbury.co.uk   visitsdatagot  31  of raw data newqueenavon.co.uk/   visitsdatagot  31  of raw data housemartinnewmilton.co.uk   visitsdatagot  31  of raw data theworldsendtaunton.co.uk   visitsdatagot  31  of raw data theangellongham.co.uk   visitsdatagot  31  of raw data thebarnowl.co.uk   visitsdatagot  31  of raw data worldsendpatching.co.uk   visitsdatagot  31  of raw data thegrasshopperparkstone.co.uk   visitsdatagot  31  of raw data thehangletonmanor.co.uk   visitsdatagot  31  of raw data sevenstarsstroud.co.uk   visitsdatagot  31  of raw data blackswanpeasepottage.co.uk   visitsdatagot  31  of raw data thegoffsmanor.co.uk   visitsdatagot  31  of raw data wightmouse.co.uk   visitsdatagot  31  of raw data yachtsmanhamworthy.co.uk   visitsdatagot  31  of raw data thehornbrook.co.uk   visitsdatagot  31  of raw data stpetersfinger.co.uk   visitsdatagot  31  of raw data worldsendalmer.co.uk   visitsdatagot  31  of raw data thehalfwayinnwareham.co.uk.   visitsdatagot  31  of raw data smugglersinnosmingtonmills.co.uk   visitsdatagot  31  of raw data theoldgranarywareham.co.uk   visitsdatagot  31  of raw data shipwool.co.uk   visitsdatagot  31  of raw data empressofblandings.co.uk   visitsdatagot  31  of raw data jekyllhydeturgisgreen.co.uk   visitsdatagot  31  of raw data jollysailoroldbursledon.co.uk   visitsdatagot  31  of raw data portsmoutharmshatchwarren.co.uk   visitsdatagot  31  of raw data talismanparkgate.co.uk   visitsdatagot  31  of raw data wellingtonstratfieldturgis.co.uk   visitsdatagot  31  of raw data dehavillandarms.co.uk   visitsdatagot  31  of raw data blackhorsehookwood.co.uk   visitsdatagot  31  of raw data peacockfarm.co.uk   visitsdatagot  31  of raw data anchorpyrford.co.uk   visitsdatagot  31  of raw data swannewbury.co.uk   visitsdatagot  31  of raw data moatwrotham.co.uk   visitsdatagot  31  of raw data theblackrabbitarundel.co.uk   visitsdatagot  31  of raw data gardenersarmsardingly.co.uk   visitsdatagot  31  of raw data shipweymouth.co.uk   visitsdatagot  31  of raw data lighterinn.co.uk   visitsdatagot  31  of raw data queenscollegearms.co.uk   visitsdatagot  31  of raw data theeelpie.co.uk   visitsdatagot  31  of raw data lockstockbarrelocksheath.co.uk   visitsdatagot  31  of raw data oldnickholborn.co.uk   visitsdatagot  31  of raw data therisingsunwimborne.co.uk   visitsdatagot  31  of raw data shastonarms.co.uk   visitsdatagot  31  of raw data shipandshovell.co.uk   visitsdatagot  31  of raw data ststephenstavern.co.uk   visitsdatagot  31  of raw data hall-woodhousebath.co.uk   visitsdatagot  31  of raw data lulworth-coveinn.co.uk   visitsdatagot  31  of raw data http://beachhousemilfordonsea.co.uk   visitsdatagot  31  of raw data getting report for: www.sendster.co.uk   juliadatasourcegot  51  of raw data www.localmarketer.co.uk   juliadatasourcegot  1  of raw data www.olivebranchhorsham.co.uk/   juliadatasourcegot  0  of raw data Error : subscript out of bounds
+www.olivebranchhorsham.co.uk   juliadatasourcegot  0  of raw data Error : subscript out of bounds
+monmouthash.co.uk   juliadatasourcegot  21  of raw data oldinnwidecombeinthemoor.co.uk   juliadatasourcegot  45  of raw data osborneviewhillhead.co.uk/   juliadatasourcegot  59  of raw data wheatsheaflowerwoodford.co.uk   juliadatasourcegot  54  of raw data halfmoonshaftsbury.co.uk   juliadatasourcegot  32  of raw data newqueenavon.co.uk/   juliadatasourcegot  43  of raw data housemartinnewmilton.co.uk   juliadatasourcegot  37  of raw data theworldsendtaunton.co.uk   juliadatasourcegot  48  of raw data theangellongham.co.uk   juliadatasourcegot  39  of raw data thebarnowl.co.uk   juliadatasourcegot  52  of raw data worldsendpatching.co.uk   juliadatasourcegot  40  of raw data thegrasshopperparkstone.co.uk   juliadatasourcegot  39  of raw data thehangletonmanor.co.uk   juliadatasourcegot  55  of raw data sevenstarsstroud.co.uk   juliadatasourcegot  42  of raw data blackswanpeasepottage.co.uk   juliadatasourcegot  42  of raw data thegoffsmanor.co.uk   juliadatasourcegot  43  of raw data wightmouse.co.uk   juliadatasourcegot  65  of raw data yachtsmanhamworthy.co.uk   juliadatasourcegot  36  of raw data thehornbrook.co.uk   juliadatasourcegot  34  of raw data stpetersfinger.co.uk   juliadatasourcegot  45  of raw data worldsendalmer.co.uk   juliadatasourcegot  63  of raw data thehalfwayinnwareham.co.uk.   juliadatasourcegot  33  of raw data smugglersinnosmingtonmills.co.uk   juliadatasourcegot  95  of raw data theoldgranarywareham.co.uk   juliadatasourcegot  56  of raw data shipwool.co.uk   juliadatasourcegot  1  of raw data empressofblandings.co.uk   juliadatasourcegot  50  of raw data jekyllhydeturgisgreen.co.uk   juliadatasourcegot  37  of raw data jollysailoroldbursledon.co.uk   juliadatasourcegot  72  of raw data portsmoutharmshatchwarren.co.uk   juliadatasourcegot  44  of raw data talismanparkgate.co.uk   juliadatasourcegot  37  of raw data wellingtonstratfieldturgis.co.uk   juliadatasourcegot  56  of raw data dehavillandarms.co.uk   juliadatasourcegot  28  of raw data blackhorsehookwood.co.uk   juliadatasourcegot  43  of raw data peacockfarm.co.uk   juliadatasourcegot  53  of raw data anchorpyrford.co.uk   juliadatasourcegot  86  of raw data swannewbury.co.uk   juliadatasourcegot  41  of raw data moatwrotham.co.uk   juliadatasourcegot  51  of raw data theblackrabbitarundel.co.uk   juliadatasourcegot  76  of raw data gardenersarmsardingly.co.uk   juliadatasourcegot  47  of raw data shipweymouth.co.uk   juliadatasourcegot  54  of raw data lighterinn.co.uk   juliadatasourcegot  45  of raw data queenscollegearms.co.uk   juliadatasourcegot  44  of raw data theeelpie.co.uk   juliadatasourcegot  28  of raw data lockstockbarrelocksheath.co.uk   juliadatasourcegot  0  of raw data Error : subscript out of bounds
+oldnickholborn.co.uk   juliadatasourcegot  31  of raw data therisingsunwimborne.co.uk   juliadatasourcegot  10  of raw data shastonarms.co.uk   juliadatasourcegot  33  of raw data shipandshovell.co.uk   juliadatasourcegot  54  of raw data ststephenstavern.co.uk   juliadatasourcegot  63  of raw data hall-woodhousebath.co.uk   juliadatasourcegot  122  of raw data lulworth-coveinn.co.uk   juliadatasourcegot  105  of raw data http://beachhousemilfordonsea.co.uk   juliadatasourcegot  127  of raw data getting report for: www.sendster.co.uk   juliadataeventsgot  0  of raw data Error : subscript out of bounds
+www.localmarketer.co.uk   juliadataeventsgot  0  of raw data Error : subscript out of bounds
+www.olivebranchhorsham.co.uk/   juliadataeventsgot  0  of raw data Error : subscript out of bounds
+www.olivebranchhorsham.co.uk   juliadataeventsgot  0  of raw data Error : subscript out of bounds
+monmouthash.co.uk   juliadataeventsgot  8  of raw data oldinnwidecombeinthemoor.co.uk   juliadataeventsgot  7  of raw data osborneviewhillhead.co.uk/   juliadataeventsgot  8  of raw data wheatsheaflowerwoodford.co.uk   juliadataeventsgot  10  of raw data halfmoonshaftsbury.co.uk   juliadataeventsgot  7  of raw data newqueenavon.co.uk/   juliadataeventsgot  8  of raw data housemartinnewmilton.co.uk   juliadataeventsgot  3  of raw data theworldsendtaunton.co.uk   juliadataeventsgot  8  of raw data theangellongham.co.uk   juliadataeventsgot  8  of raw data thebarnowl.co.uk   juliadataeventsgot  12  of raw data worldsendpatching.co.uk   juliadataeventsgot  6  of raw data thegrasshopperparkstone.co.uk   juliadataeventsgot  8  of raw data thehangletonmanor.co.uk   juliadataeventsgot  7  of raw data sevenstarsstroud.co.uk   juliadataeventsgot  9  of raw data blackswanpeasepottage.co.uk   juliadataeventsgot  4  of raw data thegoffsmanor.co.uk   juliadataeventsgot  6  of raw data wightmouse.co.uk   juliadataeventsgot  9  of raw data yachtsmanhamworthy.co.uk   juliadataeventsgot  6  of raw data thehornbrook.co.uk   juliadataeventsgot  7  of raw data stpetersfinger.co.uk   juliadataeventsgot  8  of raw data worldsendalmer.co.uk   juliadataeventsgot  7  of raw data thehalfwayinnwareham.co.uk.   juliadataeventsgot  6  of raw data smugglersinnosmingtonmills.co.uk   juliadataeventsgot  12  of raw data theoldgranarywareham.co.uk   juliadataeventsgot  14  of raw data shipwool.co.uk   juliadataeventsgot  0  of raw data Error : subscript out of bounds
+empressofblandings.co.uk   juliadataeventsgot  8  of raw data jekyllhydeturgisgreen.co.uk   juliadataeventsgot  8  of raw data jollysailoroldbursledon.co.uk   juliadataeventsgot  15  of raw data portsmoutharmshatchwarren.co.uk   juliadataeventsgot  6  of raw data talismanparkgate.co.uk   juliadataeventsgot  8  of raw data wellingtonstratfieldturgis.co.uk   juliadataeventsgot  12  of raw data dehavillandarms.co.uk   juliadataeventsgot  10  of raw data blackhorsehookwood.co.uk   juliadataeventsgot  4  of raw data peacockfarm.co.uk   juliadataeventsgot  11  of raw data anchorpyrford.co.uk   juliadataeventsgot  10  of raw data swannewbury.co.uk   juliadataeventsgot  12  of raw data moatwrotham.co.uk   juliadataeventsgot  9  of raw data theblackrabbitarundel.co.uk   juliadataeventsgot  12  of raw data gardenersarmsardingly.co.uk   juliadataeventsgot  13  of raw data shipweymouth.co.uk   juliadataeventsgot  7  of raw data lighterinn.co.uk   juliadataeventsgot  6  of raw data queenscollegearms.co.uk   juliadataeventsgot  10  of raw data theeelpie.co.uk   juliadataeventsgot  0  of raw data Error : subscript out of bounds
+lockstockbarrelocksheath.co.uk   juliadataeventsgot  0  of raw data Error : subscript out of bounds
+oldnickholborn.co.uk   juliadataeventsgot  2  of raw data therisingsunwimborne.co.uk   juliadataeventsgot  1  of raw data shastonarms.co.uk   juliadataeventsgot  1  of raw data shipandshovell.co.uk   juliadataeventsgot  4  of raw data ststephenstavern.co.uk   juliadataeventsgot  4  of raw data hall-woodhousebath.co.uk   juliadataeventsgot  17  of raw data lulworth-coveinn.co.uk   juliadataeventsgot  11  of raw data http://beachhousemilfordonsea.co.uk   juliadataeventsgot  10  of raw data compiling data for  www.sendster.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+In addition: Warning message:
+In grep("maps\\.google", as.numeric(profiles$data$juliadatasource[[n]]$data[,  :
+  NAs introduced by coercion
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling data for  www.localmarketer.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+In addition: Warning message:
+In grep("maps\\.google", as.numeric(profiles$data$juliadatasource[[n]]$data[,  :
+  NAs introduced by coercion
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling data for  www.olivebranchhorsham.co.uk/ 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling data for  www.olivebranchhorsham.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling data for  monmouthash.co.uk 
+compiling data for  oldinnwidecombeinthemoor.co.uk 
+compiling data for  osborneviewhillhead.co.uk/ 
+compiling data for  wheatsheaflowerwoodford.co.uk 
+compiling data for  halfmoonshaftsbury.co.uk 
+compiling data for  newqueenavon.co.uk/ 
+compiling data for  housemartinnewmilton.co.uk 
+compiling data for  theworldsendtaunton.co.uk 
+compiling data for  theangellongham.co.uk 
+compiling data for  thebarnowl.co.uk 
+compiling data for  worldsendpatching.co.uk 
+compiling data for  thegrasshopperparkstone.co.uk 
+compiling data for  thehangletonmanor.co.uk 
+compiling data for  sevenstarsstroud.co.uk 
+compiling data for  blackswanpeasepottage.co.uk 
+compiling data for  thegoffsmanor.co.uk 
+compiling data for  wightmouse.co.uk 
+compiling data for  yachtsmanhamworthy.co.uk 
+compiling data for  thehornbrook.co.uk 
+compiling data for  stpetersfinger.co.uk 
+compiling data for  worldsendalmer.co.uk 
+compiling data for  thehalfwayinnwareham.co.uk. 
+compiling data for  smugglersinnosmingtonmills.co.uk 
+compiling data for  theoldgranarywareham.co.uk 
+compiling data for  shipwool.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+In addition: There were 25 warnings (use warnings() to see them)
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling data for  empressofblandings.co.uk 
+compiling data for  jekyllhydeturgisgreen.co.uk 
+compiling data for  jollysailoroldbursledon.co.uk 
+compiling data for  portsmoutharmshatchwarren.co.uk 
+compiling data for  talismanparkgate.co.uk 
+compiling data for  wellingtonstratfieldturgis.co.uk 
+compiling data for  dehavillandarms.co.uk 
+compiling data for  blackhorsehookwood.co.uk 
+compiling data for  peacockfarm.co.uk 
+compiling data for  anchorpyrford.co.uk 
+compiling data for  swannewbury.co.uk 
+compiling data for  moatwrotham.co.uk 
+compiling data for  theblackrabbitarundel.co.uk 
+compiling data for  gardenersarmsardingly.co.uk 
+compiling data for  shipweymouth.co.uk 
+compiling data for  lighterinn.co.uk 
+compiling data for  queenscollegearms.co.uk 
+compiling data for  theeelpie.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+In addition: There were 18 warnings (use warnings() to see them)
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling data for  lockstockbarrelocksheath.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling data for  oldnickholborn.co.uk 
+compiling data for  therisingsunwimborne.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  arguments must have same length
+In addition: Warning messages:
+1: In grep("maps\\.google", as.numeric(profiles$data$juliadatasource[[n]]$data[,  :
+  NAs introduced by coercion
+2: In grep("maps\\.google", as.numeric(profiles$data$juliadatasource[[n]]$data[,  :
+  NAs introduced by coercion
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  arguments must have same length
+compiling data for  shastonarms.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  arguments must have same length
+In addition: Warning message:
+In grep("maps\\.google", as.numeric(profiles$data$juliadatasource[[n]]$data[,  :
+  NAs introduced by coercion
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  arguments must have same length
+compiling data for  shipandshovell.co.uk 
+compiling data for  ststephenstavern.co.uk 
+compiling data for  hall-woodhousebath.co.uk 
+compiling data for  lulworth-coveinn.co.uk 
+compiling data for  http://beachhousemilfordonsea.co.uk 
+compiling Sources for:  www.sendster.co.uk 
+compiling Sources for:  www.localmarketer.co.uk 
+compiling Sources for:  www.olivebranchhorsham.co.uk/ 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+In addition: Warning messages:
+1: In grep("maps\\.google", as.numeric(profiles$data$juliadatasource[[n]]$data[,  :
+  NAs introduced by coercion
+2: In grep("maps\\.google", as.numeric(profiles$data$juliadatasource[[n]]$data[,  :
+  NAs introduced by coercion
+3: In grep("maps\\.google", as.numeric(profiles$data$juliadatasource[[n]]$data[,  :
+  NAs introduced by coercion
+4: In grep("maps\\.google", as.numeric(profiles$data$juliadatasource[[n]]$data[,  :
+  NAs introduced by coercion
+5: In grep("maps\\.google", as.numeric(profiles$data$juliadatasource[[n]]$data[,  :
+  NAs introduced by coercion
+compiling Sources for:  www.olivebranchhorsham.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling Sources for:  monmouthash.co.uk 
+compiling Sources for:  oldinnwidecombeinthemoor.co.uk 
+compiling Sources for:  osborneviewhillhead.co.uk/ 
+compiling Sources for:  wheatsheaflowerwoodford.co.uk 
+compiling Sources for:  halfmoonshaftsbury.co.uk 
+compiling Sources for:  newqueenavon.co.uk/ 
+compiling Sources for:  housemartinnewmilton.co.uk 
+compiling Sources for:  theworldsendtaunton.co.uk 
+compiling Sources for:  theangellongham.co.uk 
+compiling Sources for:  thebarnowl.co.uk 
+compiling Sources for:  worldsendpatching.co.uk 
+compiling Sources for:  thegrasshopperparkstone.co.uk 
+compiling Sources for:  thehangletonmanor.co.uk 
+compiling Sources for:  sevenstarsstroud.co.uk 
+compiling Sources for:  blackswanpeasepottage.co.uk 
+compiling Sources for:  thegoffsmanor.co.uk 
+compiling Sources for:  wightmouse.co.uk 
+compiling Sources for:  yachtsmanhamworthy.co.uk 
+compiling Sources for:  thehornbrook.co.uk 
+compiling Sources for:  stpetersfinger.co.uk 
+compiling Sources for:  worldsendalmer.co.uk 
+compiling Sources for:  thehalfwayinnwareham.co.uk. 
+compiling Sources for:  smugglersinnosmingtonmills.co.uk 
+compiling Sources for:  theoldgranarywareham.co.uk 
+compiling Sources for:  shipwool.co.uk 
+compiling Sources for:  empressofblandings.co.uk 
+compiling Sources for:  jekyllhydeturgisgreen.co.uk 
+compiling Sources for:  jollysailoroldbursledon.co.uk 
+compiling Sources for:  portsmoutharmshatchwarren.co.uk 
+compiling Sources for:  talismanparkgate.co.uk 
+compiling Sources for:  wellingtonstratfieldturgis.co.uk 
+compiling Sources for:  dehavillandarms.co.uk 
+compiling Sources for:  blackhorsehookwood.co.uk 
+compiling Sources for:  peacockfarm.co.uk 
+compiling Sources for:  anchorpyrford.co.uk 
+compiling Sources for:  swannewbury.co.uk 
+compiling Sources for:  moatwrotham.co.uk 
+compiling Sources for:  theblackrabbitarundel.co.uk 
+compiling Sources for:  gardenersarmsardingly.co.uk 
+compiling Sources for:  shipweymouth.co.uk 
+compiling Sources for:  lighterinn.co.uk 
+compiling Sources for:  queenscollegearms.co.uk 
+compiling Sources for:  theeelpie.co.uk 
+compiling Sources for:  lockstockbarrelocksheath.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling Sources for:  oldnickholborn.co.uk 
+compiling Sources for:  therisingsunwimborne.co.uk 
+compiling Sources for:  shastonarms.co.uk 
+compiling Sources for:  shipandshovell.co.uk 
+compiling Sources for:  ststephenstavern.co.uk 
+compiling Sources for:  hall-woodhousebath.co.uk 
+compiling Sources for:  lulworth-coveinn.co.uk 
+compiling Sources for:  http://beachhousemilfordonsea.co.uk 
+compiling Sources for:  www.sendster.co.uk 
+compiling Sources for:  www.localmarketer.co.uk 
+compiling Sources for:  www.olivebranchhorsham.co.uk/ 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling Sources for:  www.olivebranchhorsham.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling Sources for:  monmouthash.co.uk 
+compiling Sources for:  oldinnwidecombeinthemoor.co.uk 
+compiling Sources for:  osborneviewhillhead.co.uk/ 
+compiling Sources for:  wheatsheaflowerwoodford.co.uk 
+compiling Sources for:  halfmoonshaftsbury.co.uk 
+compiling Sources for:  newqueenavon.co.uk/ 
+compiling Sources for:  housemartinnewmilton.co.uk 
+compiling Sources for:  theworldsendtaunton.co.uk 
+compiling Sources for:  theangellongham.co.uk 
+compiling Sources for:  thebarnowl.co.uk 
+compiling Sources for:  worldsendpatching.co.uk 
+compiling Sources for:  thegrasshopperparkstone.co.uk 
+compiling Sources for:  thehangletonmanor.co.uk 
+compiling Sources for:  sevenstarsstroud.co.uk 
+compiling Sources for:  blackswanpeasepottage.co.uk 
+compiling Sources for:  thegoffsmanor.co.uk 
+compiling Sources for:  wightmouse.co.uk 
+compiling Sources for:  yachtsmanhamworthy.co.uk 
+compiling Sources for:  thehornbrook.co.uk 
+compiling Sources for:  stpetersfinger.co.uk 
+compiling Sources for:  worldsendalmer.co.uk 
+compiling Sources for:  thehalfwayinnwareham.co.uk. 
+compiling Sources for:  smugglersinnosmingtonmills.co.uk 
+compiling Sources for:  theoldgranarywareham.co.uk 
+compiling Sources for:  shipwool.co.uk 
+compiling Sources for:  empressofblandings.co.uk 
+compiling Sources for:  jekyllhydeturgisgreen.co.uk 
+compiling Sources for:  jollysailoroldbursledon.co.uk 
+compiling Sources for:  portsmoutharmshatchwarren.co.uk 
+compiling Sources for:  talismanparkgate.co.uk 
+compiling Sources for:  wellingtonstratfieldturgis.co.uk 
+compiling Sources for:  dehavillandarms.co.uk 
+compiling Sources for:  blackhorsehookwood.co.uk 
+compiling Sources for:  peacockfarm.co.uk 
+compiling Sources for:  anchorpyrford.co.uk 
+compiling Sources for:  swannewbury.co.uk 
+compiling Sources for:  moatwrotham.co.uk 
+compiling Sources for:  theblackrabbitarundel.co.uk 
+compiling Sources for:  gardenersarmsardingly.co.uk 
+compiling Sources for:  shipweymouth.co.uk 
+compiling Sources for:  lighterinn.co.uk 
+compiling Sources for:  queenscollegearms.co.uk 
+compiling Sources for:  theeelpie.co.uk 
+compiling Sources for:  lockstockbarrelocksheath.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+compiling Sources for:  oldnickholborn.co.uk 
+compiling Sources for:  therisingsunwimborne.co.uk 
+compiling Sources for:  shastonarms.co.uk 
+compiling Sources for:  shipandshovell.co.uk 
+compiling Sources for:  ststephenstavern.co.uk 
+compiling Sources for:  hall-woodhousebath.co.uk 
+compiling Sources for:  lulworth-coveinn.co.uk 
+compiling Sources for:  http://beachhousemilfordonsea.co.uk 
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
+Error in aggregate.data.frame(as.data.frame(x), ...) : 
+  no rows to aggregate
