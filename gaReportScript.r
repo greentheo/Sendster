@@ -361,7 +361,7 @@ blacklist = c("sendster.co.uk", "localmarketer.co.uk", "socweb-test.co.uk", "www
 dates =  rev(seq(as.Date(format(Sys.Date(), "%Y-%m-01")), length=2, by="-1 month"))
 dates[length(dates)] = dates[length(dates)]-1
 
-dates = c(as.Date("2013-07-01"), as.Date("2013-07-31"))
+#dates = c(as.Date("2013-07-01"), as.Date("2013-07-31"))
 
 profiles = getProfileData(datestart=as.character(dates[1]), dateend=as.character(dates[2]), accesstoken)
 #if you need to get a specific date range you can specify here
