@@ -49,19 +49,26 @@ getRawDat = function(profiles,ip, startdate, enddate, metrics, dimensions, sort,
                                   '&sort=',sort,sep='', collapse='')))
   #turn the rows into a dataframe
   cat('got ', length(rawdat$rows), ' of raw data ')
-  basedata = array(0, c(length(rawdat$rows), length(rawdat$rows[[1]])))
-  basedata.df = as.data.frame(basedata)
-  for(ii in 1:nrow(basedata)){
-    basedata[ii,] = rawdat$rows[[ii]]
+  if(!is.null(rawdat$rows)){
+    basedata = array(0, c(length(rawdat$rows), length(rawdat$rows[[1]])))
+    basedata.df = as.data.frame(basedata)
+    
+    if(nrow(basedata))
+    for(ii in 1:nrow(basedata)){
+      basedata[ii,] = rawdat$rows[[ii]]
+    }
+    colType = getLItem(rawdat$columnHeaders, "dataType")
+    for(ii in 1:ncol(basedata)){
+      basedata.df[,ii] = switch(colType[ii], 
+                                "INTEGER"=as.numeric(basedata[,ii]),
+                                "STRING"=as.character(basedata[,ii]))
+    }
+    colnames(basedata.df) = getLItem(rawdat$columnHeaders, "name")
+  }else{
+    basedata = array(0, c(1, length(rawdat$columnHeaders)))
+    basedata.df=as.data.frame(basedata)
+    colnames(basedata.df) = getLItem(rawdat$columnHeaders, "name")
   }
-  colType = getLItem(rawdat$columnHeaders, "dataType")
-  for(ii in 1:ncol(basedata)){
-    basedata.df[,ii] = switch(colType[ii], 
-                              "INTEGER"=as.numeric(basedata[,ii]),
-                              "STRING"=as.character(basedata[,ii]))
-  }
-  colnames(basedata.df) = getLItem(rawdat$columnHeaders, "name")
-
  
   
   return(list(data=basedata.df, rawdat=rawdat))
@@ -353,8 +360,10 @@ blacklist = c("sendster.co.uk", "localmarketer.co.uk", "socweb-test.co.uk", "www
 #get the previous month of data starting on the 1st all the way to the last day of the month
 dates =  rev(seq(as.Date(format(Sys.Date(), "%Y-%m-01")), length=2, by="-1 month"))
 dates[length(dates)] = dates[length(dates)]-1
-profiles = getProfileData(datestart=as.character(dates[1]), dateend=as.character(dates[2]), accesstoken)
 
+dates = c(as.Date("2013-07-01"), as.Date("2013-07-31"))
+
+profiles = getProfileData(datestart=as.character(dates[1]), dateend=as.character(dates[2]), accesstoken)
 #if you need to get a specific date range you can specify here
 #profiles = getProfileData(datestart="2012-05-01", dateend="2012-06-01")
 

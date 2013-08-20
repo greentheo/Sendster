@@ -1,4 +1,4 @@
 #! /usr/bin/Rscript
 
-setwd('/home/theovanrooy/repo2/')
-source('/home/theovanrooy/repo2/gaReportScript.r')
+setwd('/home/theovanrooy/Sendster/')
+source('/home/theovanrooy/Sendster/gaReportScript.r')
