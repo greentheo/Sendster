@@ -370,7 +370,7 @@ profiles = getProfileData(datestart=as.character(dates[1]), dateend=as.character
 #reshape the data into something more useable
 rawdata = makeRawReport(profiles)
 
-rawdata = rawdata[-which(rownames(rawdata)%in%blacklist), ]
+# rawdata = rawdata[-which(rownames(rawdata)%in%blacklist), ]
 
 # rawdata = transform(as.data.frame(rawdata), char="numeric")
 #write out the raw report in csv format
